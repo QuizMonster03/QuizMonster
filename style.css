@@ -1,0 +1,798 @@
+/* Default styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Responsive styles for even smaller screens */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+
+/* Default styles for the header */
+.header-first {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Default styles for the heading */
+.heading {
+  font-size: 42px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Default styles for the quotation */
+.qoutation {
+  font-size: 20px;
+  font-style: italic;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Responsive styles for the header */
+  .header-first {
+    padding: 15px;
+  }
+
+  /* Responsive styles for the heading */
+  .heading {
+    font-size: 28px;
+  }
+}
+
+/* Responsive styles for even smaller screens */
+@media screen and (max-width: 480px) {
+  /* Responsive styles for the header */
+  .header-first {
+    padding: 10px;
+  }
+
+  /* Responsive styles for the heading */
+  .heading {
+    font-size: 24px;
+  }
+
+  /* Responsive styles for the quotation */
+  .qoutation {
+    font-size: 14px;
+  }
+}
+
+
+/* Default styles for the AIM div */
+.AIM {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Default styles for the AIM detail div */
+.AIM-detail {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* Default styles for the paragraph */
+.AIM p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Responsive styles for the AIM div */
+  .AIM {
+    padding: 15px;
+  }
+
+  /* Responsive styles for the AIM detail div */
+  .AIM-detail {
+    font-size: 18px;
+  }
+
+  /* Responsive styles for the paragraph */
+  .AIM p {
+    font-size: 14px;
+  }
+}
+
+/* Responsive styles for even smaller screens */
+@media screen and (max-width: 480px) {
+  /* Responsive styles for the AIM div */
+  .AIM {
+    padding: 10px;
+  }
+
+  /* Responsive styles for the AIM detail div */
+  .AIM-detail {
+    font-size: 16px;
+  }
+
+  /* Responsive styles for the paragraph */
+  .AIM p {
+    font-size: 12px;
+  }
+}
+
+
+/* Default styles for the registration div */
+.registration {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Default styles for the anchor tag */
+.registration a {
+  text-decoration: none;
+  color: green;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Default styles for the h4 tag */
+.registration h4 {
+  margin: 0;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Responsive styles for the registration div */
+  .registration {
+    margin: 15px;
+  }
+
+  /* Responsive styles for the anchor tag */
+  .registration a {
+    padding: 8px 16px;
+  }
+
+  /* Responsive styles for the h4 tag */
+  .registration h4 {
+    font-size: 18px;
+  }
+}
+
+/* Responsive styles for even smaller screens */
+@media screen and (max-width: 480px) {
+  /* Responsive styles for the registration div */
+  .registration {
+    margin: 10px;
+  }
+
+  /* Responsive styles for the anchor tag */
+  .registration a {
+    padding: 6px 12px;
+  }
+
+  /* Responsive styles for the h4 tag */
+  .registration h4 {
+    font-size: 16px;
+  }
+}
+
+
+/* Default styles for the scholar-detail div */
+.scholar-detail {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Default styles for the poster-image div */
+.poster-image {
+  max-width: 100%;
+}
+
+/* Default styles for the image */
+.poster-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Responsive styles for the scholar-detail div */
+  .scholar-detail {
+    margin: 15px;
+  }
+
+  /* Responsive styles for the poster-image div */
+  .poster-image {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* Responsive styles for even smaller screens */
+@media screen and (max-width: 480px) {
+  /* Responsive styles for the scholar-detail div */
+  .scholar-detail {
+    margin: 10px;
+  }
+
+  /* Responsive styles for the poster-image div */
+  .poster-image {
+    max-width: 60%;
+  }
+}
+
+
+/* Default styles for the eligibility div */
+.eligibility {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Default styles for the paragraph */
+.eligibility p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Responsive styles for the eligibility div */
+  .eligibility {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  /* Responsive styles for the paragraph */
+  .eligibility p {
+    font-size: 14px;
+  }
+}
+
+/* Responsive styles for even smaller screens */
+@media screen and (max-width: 480px) {
+  /* Responsive styles for the eligibility div */
+  .eligibility {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Responsive styles for the paragraph */
+  .eligibility p {
+    font-size: 12px;
+  }
+}
+
+/* Default styles for the date-time div */
+.date-time {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Default styles for the paragraph */
+.date-time p {
+  font-style: italic;
+  color: rgb(105, 167, 217);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Default styles for the h4 tag */
+.date-time h4 {
+  margin: 0;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Responsive styles for the date-time div */
+  .date-time {
+    margin: 15px;
+  }
+
+  /* Responsive styles for the paragraph */
+  .date-time p {
+    font-size: 14px;
+  }
+
+  /* Responsive styles for the h4 tag */
+  .date-time h4 {
+    font-size: 18px;
+  }
+}
+
+/* Responsive styles for even smaller screens */
+@media screen and (max-width: 480px) {
+  /* Responsive styles for the date-time div */
+  .date-time {
+    margin: 10px;
+  }
+
+  /* Responsive styles for the paragraph */
+  .date-time p {
+    font-size: 12px;
+  }
+
+  /* Responsive styles for the h4 tag */
+  .date-time h4 {
+    font-size: 16px;
+  }
+}
+
+
+/* Default styles for the rules div */
+.rules {
+  margin: 20px;
+}
+
+/* Default styles for the paragraph */
+.rules p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Default styles for the h5 tag */
+.rules h5 {
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+  
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Responsive styles for the rules div */
+  .rules {
+    margin: 15px;
+  }
+
+  /* Responsive styles for the paragraph */
+  .rules p {
+    font-size: 14px;
+  }
+
+  /* Responsive styles for the h5 tag */
+  .rules h5 {
+    font-size: 16px;
+  }
+}
+
+/* Responsive styles for even smaller screens */
+@media screen and (max-width: 480px) {
+  /* Responsive styles for the rules div */
+  .rules {
+    margin: 10px;
+  }
+
+  /* Responsive styles for the paragraph */
+  .rules p {
+    font-size: 12px;
+  }
+
+  /* Responsive styles for the h5 tag */
+  .rules h5 {
+    font-size: 14px;
+  }
+}
+
+
+/* Default styles for the footer-first footer */
+.footer-first {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+
+/* Default styles for the unordered list */
+.footer-first ul {
+list-style: none;
+padding: 0;
+}
+
+/* Default styles for list items */
+.footer-first li {
+margin-bottom: 10px;
+}
+
+/* Default styles for images */
+.footer-first img {
+max-width: 10%;
+height: auto;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+/* Responsive styles for the footer-first footer */
+.footer-first {
+  padding: 15px;
+}
+
+/* Responsive styles for list items */
+.footer-first li {
+  margin-bottom: 8px;
+}
+
+/* Responsive styles for images */
+.footer-first img {
+  max-width: 80%;
+}
+}
+
+/* Responsive styles for even smaller screens */
+@media screen and (max-width: 480px) {
+/* Responsive styles for the footer-first footer */
+.footer-first {
+  padding: 10px;
+}
+
+/* Responsive styles for list items */
+.footer-first li {
+  margin-bottom: 6px;
+}
+
+/* Responsive styles for images */
+.footer-first img {
+  max-width: 60%;
+}
+}
+
+
+
+
+
+/* animation */
+
+/* Keyframes for animation */
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+/* Styles for heading */
+.heading {
+  font-size: 32px;
+  text-align: center;
+  animation: fadeIn 5s ease-in-out forwards;
+}
+
+/* Styles for quotation */
+.quotation {
+  font-size: 18px;
+  text-align: center;
+  animation: fadeIn 5s ease-in-out forwards;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .heading {
+      font-size: 24px;
+  }
+  .quotation {
+      font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heading {
+      font-size: 20px;
+  }
+  .quotation {
+      font-size: 14px;
+  }
+}
+
+
+/* Keyframes for animation */
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Styles for AIM detail */
+.AIM-detail {
+  font-size: 24px;
+  text-align: center;
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+/* Styles for paragraphs */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .AIM-detail {
+      font-size: 20px;
+  }
+  p {
+      font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .AIM-detail {
+      font-size: 18px;
+  }
+  p {
+      font-size: 12px;
+  }
+}
+
+
+/* Keyframes for animation */
+@keyframes scaleIn {
+  0% {
+      transform: scale(0.5);
+      opacity: 0;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+
+/* Styles for anchor and heading */
+a {
+  display: inline-block;
+  text-align: center;
+  animation: scaleIn 0.5s ease-in-out forwards;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  h4 {
+      font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h4 {
+      font-size: 14px;
+  }
+}
+
+
+/* Keyframes for animation */
+@keyframes scaleIn {
+  0% {
+      transform: scale(0.5);
+      opacity: 0;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+
+/* Styles for poster image */
+.poster-image {
+  text-align: center;
+  animation: scaleIn 0.5s ease-in-out forwards;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .poster-image img {
+      max-width: 80%;
+      height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .poster-image img {
+      max-width: 100%;
+      height: auto;
+  }
+}
+
+
+/* Keyframes for animation */
+@keyframes fadeInLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+/* Styles for paragraphs */
+p {
+  animation: fadeInLeft 1s ease-in-out forwards;
+  font-size: 20px; /* Default font size */
+}
+
+p:first-child {
+  font-weight: bold;
+  color: black;
+}
+
+p:last-child b {
+  font-weight: bold;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  p {
+      font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  p {
+      font-size: 16px;
+  }
+}
+
+
+/* Keyframes for animation */
+@keyframes fadeInRight {
+  0% {
+      opacity: 0;
+      transform: translateX(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+/* Styles for headings and paragraphs */
+h5 {
+  color: black;
+  animation: fadeInRight 1s ease-in-out forwards;
+}
+
+p {
+  font-size: 16px; /* Default font size */
+  animation: fadeInRight 1s ease-in-out forwards;
+}
+
+p b {
+  font-weight: bold;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  h5,
+  p {
+      font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h5,
+  p {
+      font-size: 12px;
+  }
+}
+
+
+/* Keyframes for animation */
+@keyframes slideInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Styles for list items */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  animation: slideInUp 1s ease-in-out forwards;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  li {
+      font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  li {
+      font-size: 12px;
+  }
+}
+
+
+/* Keyframes for the animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Default styles for header elements */
+.header-first img {
+  width: 50px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.header-first .heading {
+  font-size: 24px;
+}
+
+.header-first .quotation {
+  font-style: italic;
+}
+
+/* Animation for header elements */
+.header-first img,
+.header-first .heading,
+.header-first .quotation {
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+/* Responsive styles using media queries */
+@media screen and (max-width: 768px) {
+  .header-first img {
+    width: 80px; /* Adjust the width for smaller screens */
+  }
+
+  .header-first .heading {
+    font-size: 18px; /* Adjust the font size for smaller screens */
+  }
+
+  .header-first .quotation {
+    font-size: 14px; /* Adjust the font size for smaller screens */
+  }
+}
